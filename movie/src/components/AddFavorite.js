@@ -3,7 +3,7 @@ import React from "react";
 function AddFavorite() {
   return (
     <div class="flex text-xl text-Dark    gap-2">
-      <h1 class="pb-1 font-bolder text-pink-900 text-2xl ">Add To Your Favorite</h1>
+      <h1 class="pb-1 font-bolder text-pink-900 text-xl ">Add To Your Favorite</h1>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="red"
