@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
+import AddFavorite from "./components/AddFavorite";
 import MoviesList from "./components/MoviesList";
 import Search from "./components/Search";
+import "./App.css"
 // const axios = require("axios");
 
 function App() {
@@ -40,7 +42,7 @@ function App() {
       </div>
 
       <div className="flex flex-raw">
-        <MoviesList movies={movies} />
+        <MoviesList movies={movies} AddFavorite={AddFavorite} />
       </div>
     </div>
   );

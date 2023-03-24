@@ -2,3 +2,18 @@
 	overflow-x: auto;
 	flex-wrap: nowrap;
 }
+
+.overlay{
+	position: absolute;
+	background: rgba(20, 0, 0, 0.8);
+	width: 100%; 
+	transition: 0.5s ease;
+	opacity: 1;
+	bottom: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+.overlay-hidden :hover {
+	opacity:1
+}
