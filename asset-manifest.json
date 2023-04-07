@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MOVIE-APP/static/css/main.1243de3f.css",
+    "main.js": "/MOVIE-APP/static/js/main.51c7056b.js",
+    "static/media/axios.cjs": "/MOVIE-APP/static/media/axios.33cfa09f5297bf2e21f8.cjs",
+    "index.html": "/MOVIE-APP/index.html",
+    "static/media/index.cjs": "/MOVIE-APP/static/media/index.cd351d7c31d0d3fccf96.cjs",
+    "main.1243de3f.css.map": "/MOVIE-APP/static/css/main.1243de3f.css.map",
+    "main.51c7056b.js.map": "/MOVIE-APP/static/js/main.51c7056b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1243de3f.css",
+    "static/js/main.51c7056b.js"
+  ]
+}
