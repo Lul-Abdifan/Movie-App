@@ -1,25 +1,14 @@
 import { useEffect, useState } from "react";
-import AddFavorite from "./components/AddFavorite";
+
 import MoviesList from "./components/MoviesList";
 import Search from "./components/Search";
-import FavoriteMovie from "./components/Navbar";
+
 import "./App.css";
-import { list } from "postcss";
-// const axios = require("axios");
 
 function App() {
   const [movies, setMovies] = useState([]);
   const [search, setSearch] = useState("");
-  const [favorite, setFavorite] = useState([]);
-  const axios = require("axios");
 
-  // axios.get('http://www.omdbapi.com/?s=Friends&apikey=c020e08e')
-  //   .then(response => {
-  //     console.log(response.data);
-  //   })
-  //   .catch(error => {
-  //     console.log(error);
-  //   });
   const getMovieRequest = async (search) => {
     const url = `http://www.omdbapi.com/?s=${search}&apikey=c020e08e`;
     const response = await fetch(url);
@@ -35,10 +24,6 @@ function App() {
     getMovieRequest(search);
   }, [search]);
 
-  const handleFavorite = (list) => {
-    const favorites = [...favorite, list];
-    setFavorite(favorites);
-  };
   return (
     <div
       className="container-fluid movie-app"
@@ -49,11 +34,7 @@ function App() {
       </div>
 
       <div className="flex flex-raw">
-        <MoviesList
-          movies={movies}
-          AddFavorite={AddFavorite}
-          handleFavorite={handleFavorite}
-        />
+        <MoviesList movies={movies} />
       </div>
     </div>
   );
