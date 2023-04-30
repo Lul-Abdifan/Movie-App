@@ -69,7 +69,7 @@ The movie-app website is a sleek and user-friendly platform for browsing, search
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Todo-List](Coming Soon)
+- [Movie-App](https://lul-abdifan.github.io/Movie-App/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
