@@ -1,12 +1,15 @@
 import React from "react";
 import Navbar from "./Navbar";
-import navbar from "./Navbar";
 
 function Search(props) {
   return (
     <div class="flex flex-row justify-around">
-      <h1 class="text-5xl
-       text-purple-500 font-bold  ">Movie</h1>
+      <h1
+        class="text-5xl
+       text-purple-500 font-bold  "
+      >
+        Movie
+      </h1>
       <input
         value={props.value}
         placeholder="Type here to Search"
