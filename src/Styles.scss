@@ -2,6 +2,7 @@ $primary-color: #007bff;
 $secondary-color: #333;
 $tertiary-color: #ca0b0b;
 $overlay-color: rgba(20, 0, 0, 0.8);
+$water-color: #1e90ff; 
 
 .movie-app {
   .row {
@@ -41,8 +42,9 @@ $overlay-color: rgba(20, 0, 0, 0.8);
   background-color: rgba(0, 0, 0, 0.5);
 
   .modal-content {
-    background-color: rgb(206, 170, 170);
+    background-color: rgb(221, 136, 39);
     display: flex;
+    
     justify-content: space-between;
     padding: 20px;
     border-radius: 10px;
