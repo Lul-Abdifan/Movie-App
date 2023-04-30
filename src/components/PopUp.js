@@ -1,8 +1,10 @@
 import React from "react";
 
 function Pop(props) {
-  const { Title, Year,  Type } = props.movie;
-
+  const { Title, Year, Type } = props.movie;
+  const handleClose = () => {
+    props.onClose();
+  };
   return (
     <div className="modal">
       <div className="modal-content">

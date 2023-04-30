@@ -23,8 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,7 +48,9 @@
   "main": "index.js",
   "devDependencies": {
     "gh-pages": "^5.0.0",
-    "postcss": "^8.4.21"
+    "postcss": "^8.4.21",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2"
   },
   "keywords": [],
   "author": "",

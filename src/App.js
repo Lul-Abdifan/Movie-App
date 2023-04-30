@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import MoviesList from "./components/MoviesList";
 import Search from "./components/Search";
 
-import "./App.css";
+import "./Styles.scss";
 
 function App() {
   const [movies, setMovies] = useState([]);
