@@ -1,22 +1,24 @@
 .movie-app > .row {
-	overflow-x: auto;
-	flex-wrap: nowrap;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  z-index: 0;
 }
 
-.overlay{
-	position: absolute;
-	background: rgba(20, 0, 0, 0.8);
-	width: 100%; 
-	transition: 0.5s ease;
-	opacity: 0;
-	bottom: 0;
-	font-size: 20px;
-	padding: 20px;
-	text-align: center;
-	border:1px red solid
+.overlay {
+  position: absolute;
+  background: rgba(20, 0, 0, 0.8);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  border: 1px red solid;
 }
 .overlay-shown :hover {
-	cursor: pointer;
-	opacity:1
-	
+  cursor: pointer;
+  opacity: 1;
 }
+/* Styles for the movie popup */
+
